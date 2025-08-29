@@ -1,0 +1,139 @@
+.information .name{
+    height: 31px;
+    font-size: 21px;
+    font-family: sans-serif;
+    font-weight: 800;
+    color: #B1C9DD;
+    display: block;
+    
+    margin-bottom: 18px;
+
+    
+    
+
+}
+.actions .stuf{
+    margin-right: 6px;
+}
+.actions{
+    
+    color: #ABABAB;
+    margin-bottom: 15px;
+}
+
+.info{
+    
+    color: #ABABAB;
+}
+
+.review{
+    padding-top: 0;
+   background-image: url(stone.jpg);
+   
+   width: 910px;
+    height: 207.9px;
+    cursor: grab;
+   margin-bottom: 22px;
+   
+   
+   
+    
+}
+.pg{
+    border: 1px solid gray;
+    margin-right: 7px;
+}
+.quality{
+    border: 1px solid;
+    color: black;
+    padding: 1px;
+    margin-right: 7px;
+    border-radius: 2px;
+    background-color:  rgb(163, 207, 240);
+}
+.epi button{
+margin: 0;
+background-color: gray;
+    border: 1px solid ;
+    color: black;
+
+    
+    
+}
+#extra{
+    font-size: 12px;
+}
+.watch{
+    margin-top: 12px;
+}
+.watch span button{
+    padding: 8px;
+    border: 1px solid;
+    border-radius: 3px;
+    background-color:rgb(163, 207, 240) ;
+    opacity: 0.8;
+    cursor: pointer;
+    
+}
+.watch span button:hover{
+    opacity: 1;
+}
+.review .inside{
+    background-color: rgb(16, 16, 16);
+    height: 207px;
+    width: 100%;
+    opacity: 0.969795;
+    height: 100%;
+    
+}
+.share{
+    background-color: #191919;
+    color: #868686;
+     width: 910px;
+    height: 97px;
+     
+
+}
+.share a{
+    color: #F9F9F9;
+}
+.share a:hover{
+    color: rgb(149, 182, 208);
+}
+
+.sharing {
+    margin-top: 15px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.sharing div{
+    flex: 1;
+    padding-left: 15px;
+    align-content: center;
+    height: 35px;
+    margin-right: 3px;
+    color: #FFFF;
+    border-radius: 3px;
+    cursor: pointer;
+    overflow: hidden;
+    
+    
+}
+@media screen and (max-width:770px){
+    .sharing div span{
+        display: none;
+        
+
+    }
+    .sharing div {
+    
+        width: 10px;
+    }
+}
+.sharing div span:hover{
+    opacity: 0.8;
+    cursor: pointer;
+}
+.sharing div span{
+    margin-left: 12px;
+}
